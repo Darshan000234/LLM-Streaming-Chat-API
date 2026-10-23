@@ -1,0 +1,20 @@
+{
+  "name": "jsdemo-streaming-llm-chat",
+  "version": "2.1.0",
+  "description": "A general-purpose streaming LLM chat app using Node.js, Express, and OpenRouter.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check public/app.js && node --check test.js",
+    "test": "node --test test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
